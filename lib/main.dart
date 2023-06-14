@@ -1,3 +1,4 @@
+import 'package:emi_calcccc/splash.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 
@@ -8,7 +9,7 @@ import 'about.dart';
 void main() {
   runApp(const MaterialApp(
     title: 'EMI Calculator',
-    home: EMICalculator(),
+    home: SplashScreen(),
     debugShowCheckedModeBanner: false,
   ));
 }
