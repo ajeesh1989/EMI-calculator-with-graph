@@ -145,7 +145,7 @@ class _EMICalculatorState extends State<EMICalculator> {
               ),
             ),
             ListTile(
-              title: const Text('How to use this app'),
+              title: const Text('About app'),
               onTap: () {
                 Navigator.push(
                   context,
